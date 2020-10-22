@@ -35,6 +35,3 @@ WM_SMTP_PASSWORD=pass
 WM_SMTP_FROM=John Doe
 WM_SMTP_TO=alert@email.com
 ```
-
-## Alert specification
-Please read further details in the [alert docs](https://github.com/whoopsmonitor/whoopsmonitor/blob/master/docs/custom-alert.md).
