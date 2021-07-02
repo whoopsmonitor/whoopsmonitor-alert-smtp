@@ -12,7 +12,7 @@ LABEL com.whoopsmonitor.env.WM_SMTP_PASSWORD=""
 LABEL com.whoopsmonitor.env.WM_SMTP_FROM=""
 LABEL com.whoopsmonitor.env.WM_SMTP_TO=""
 
-RUN apk add openssl=1.1.1g-r0 --no-cache
+RUN apk add openssl=1.1.1k-r0 --no-cache
 
 WORKDIR /app
 COPY ./src/index.js ./index.js
